@@ -12,7 +12,7 @@ i = 0
 while True:
     i += 1
     epsilon += (1 / math.factorial(i))
-    if 1 / math.factorial(i) < epsilon_value:
+    if (1 / math.factorial(i)) < epsilon_value:
         break
 
 print(f"{epsilon:.3}")
