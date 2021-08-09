@@ -1,7 +1,6 @@
 # 6.1 exercise // find max and min in *number
 def max_min(*numbers):
-    print(f"Max in numbers = {max(numbers)}")
-    print(f"Max in numbers = {min(numbers)}")
+   return max(numbers), min(numbers)
 
 # 6.2 exercise // converting a string to reverse
 def reverse_string(msg):
@@ -39,6 +38,17 @@ def is_prime(num):
         return False
 
 # 6.5 exercise //
+def count_upper_lower(msg):
+    upper = [check for check in msg if check.isupper()]
+    lower = [check for check in msg if check.islower()]
+    return len(upper), len(lower)
+
+# 6.6 exercise //
+def is_pangram(msg, alphabet):
+    return not set(alphabet) - set(msg.lower())
+
+# 6.7
+
 
 
 
