@@ -128,6 +128,14 @@ def enter_data():
         else:
             print("Dữ liệu đã nhập không phải số nguyên")
 
+# 6.13 exercise // find x in source
+
+# Dear instructor >> it's not nescesary to built a new method while Python was had this :)))
+
+# txt = "Hello, welcome to my world."
+# x = txt.find("welcome")
+# print(x)
+
 
 
 
