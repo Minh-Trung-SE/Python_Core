@@ -130,7 +130,7 @@ def enter_data():
 
 # 6.13 exercise // find x in source
 
-# Dear instructor >> it's not necessary to built a new method while Python was had this :)))
+# Dear instructor >> it's not necessary to built a new method while Python had this :)))
 
 # txt = "Hello, welcome to my world."
 # x = txt.find("welcome")
