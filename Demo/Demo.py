@@ -16,7 +16,10 @@
 # for sub in s2:
 #     print(sub)
 #
-import numpy as np
-a = [[3, -4, 5], [2, -3, 1], [3, -3, 1]]
-a = np.array(a)
-print(np.linalg.inv(a))
+# import numpy as np
+# a = [[3, -4, 5], [2, -3, 1], [3, -3, 1]]
+# a = np.array(a)
+# print(np.linalg.inv(a))
+my_tuple = ('one',)
+print(type(my_tuple))
+print(f"{my_tuple}")
