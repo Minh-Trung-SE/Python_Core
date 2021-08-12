@@ -2,6 +2,7 @@
 def enter_data():
     while True:
         n = input("Nhập 1 số nguyên: ")
+        print(f"{n.isnumeric()}")
         if n.isnumeric():
             n = int(n)
             if n > 0:
@@ -10,3 +11,6 @@ def enter_data():
             print("Đã nhập số không dương. Chương trình sẽ tiếp tục!")
         else:
             print("Dữ liệu đã nhập không phải số nguyên")
+
+
+enter_data()

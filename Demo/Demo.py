@@ -16,10 +16,7 @@
 # for sub in s2:
 #     print(sub)
 #
-def func_greet(name, msg):
-    print(f"Hello {name}, {msg}")
-
-
-# func_greet("Trung")
-# func_greet("Trung", "Minh", "An")
-func_greet()
+import numpy as np
+a = [[3, -4, 5], [2, -3, 1], [3, -3, 1]]
+a = np.array(a)
+print(np.linalg.inv(a))
