@@ -2,10 +2,12 @@ class Dog:
     # =================================Class attribute=============================
     species = 'mammal'
     is_hungry = True
+
     # =================================Initializer=================================
     def __init__(self, name, age):
         self.name = name
         self.age = age
+
     # =================================Instance method=============================
     def description(self):
         return f'{self.name} is {self.age} years old'
@@ -15,10 +17,13 @@ class Dog:
 
     def eat(self):
         self.is_hungry = False
+
+
 # =================================Child (inherits from Dog class)=================
 class RussellTerrier(Dog):
     def run(self, speed):
         return f'{self.name} runs {speed}'
+
 
 class Bulldog(Dog):
     def run(self, speed):
@@ -55,12 +60,3 @@ if __name__ == '__main__':
         print(f"My dogs are not hungry")
     else:
         print(f"Exception!")
-
-
-
-
-
-
-
-
-

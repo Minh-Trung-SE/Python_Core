@@ -6,6 +6,7 @@ class User:
     address = ''
     username = ''
     password = ''
+
     def __init__(self):
         self.first_name = input("First name: ")
         pass
@@ -16,7 +17,7 @@ class User:
     def logout(self):
         pass
 
-    def update_infor(self):
+    def update_info(self):
         pass
 
 

@@ -19,7 +19,19 @@
 # import numpy as np
 # a = [[3, -4, 5], [2, -3, 1], [3, -3, 1]]
 # a = np.array(a)
-# print(np.linalg.inv(a))
-my_tuple = ('one',)
-print(type(my_tuple))
-print(f"{my_tuple}")
+# print(np.lineal.inv(a))
+# my_tuple = ('one',)
+# print(type(my_tuple))
+# print(f"{my_tuple}")
+class Car:
+    color = 'Blue'
+
+    def __init__(self, color="Black"):
+        self.color = color
+
+    def show_color(self):
+        print(self.color)
+
+
+car = Car("red")
+car.show_color()

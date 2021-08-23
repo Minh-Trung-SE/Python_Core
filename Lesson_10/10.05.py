@@ -8,6 +8,7 @@ class NewString:
     def print_String(self):
         print(f"{self.msg.upper()}")
 
+
 str_tester = NewString()
 str_tester.get_string()
 str_tester.print_String()

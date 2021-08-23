@@ -8,6 +8,7 @@ class Pets:
         for dog in self.dogs:
             print(dog.walk())
 
+
 class Dog:
     species = 'mammal'
     is_hungry = True
@@ -25,22 +26,24 @@ class Dog:
     def eat(self):
         self.is_hungry = False
 
-    def walk(self, type = 'walking'):
+    def walk(self, type='walking'):
         return f"{self.name} is {type}"
 
 
 class RussellTerrier(Dog):
-    def run(self,speed):
+    def run(self, speed):
         return f'{self.name} runs {speed}'
-    # def walk(self, type = 'running'):
+
+    # def walk(self, type='running'):
     #     return f"{self.name} is {type}"
+
 
 class Bulldog(Dog):
     def run(self, speed):
         return f'{self.name} runs {speed}'
-    # def walk(self, type = 'fly'):
-    #     return f"{self.name} is {type}"
 
+    # def walk(self, type='fly'):
+    #     return f"{self.name} is {type}"
 
 
 if __name__ == '__main__':
@@ -48,8 +51,6 @@ if __name__ == '__main__':
         Dog("Tom", 6),
         Bulldog("Jerry", 9),
         RussellTerrier("Butt", 3)
-        ]
+    ]
     pets = Pets(dogs)
     pets.walk()
-
-
