@@ -1,7 +1,7 @@
-class Python_OOP:
+class PythonOOP:
     def __init__(self, level):
         self.level = level
 
 
-james = Python_OOP('master')
+james = PythonOOP('master')
 print(type(james).__name__)
