@@ -31,11 +31,12 @@ print(matrix_1 @ matrix_2)
 matrix_3 = np.random.randint(1, 10, (5, 5))
 print(matrix_3)
 print("First three rows: ")
-print(matrix_3[:3][::])
+print(matrix_3[:3][:])
 print("First two columns: ")
-print(matrix_3.shape[0])
-for i in range(matrix_3.shape[0]):
-    print(matrix_3[i][:2])
+print(matrix_3[:, :2])
+# print(matrix_3.shape[0])
+# for i in range(matrix_3.shape[0]):
+#     print(matrix_3[i][:2])
 # 7. Create a 5*10 matrix , print subtract the mean of each row of a matrix
 matrix_4 = np.random.randint(1, 10, (5, 10))
 print(matrix_4)
